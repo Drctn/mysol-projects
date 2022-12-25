@@ -8,12 +8,13 @@ contract Task01 {
     int16 public varIntB = 26322;
     uint32 public varIntC = 4673236;
     uint64 public varIntD = 3248556999457;
-    bool public option0 = false;
+    bool public option0 = FALSE;
+    address public recAddr = msg.sender.address;
     address public owner = 0xf7aca059208402B13c836cdC13cb2b4cc40472a5;
-    
-    bytes1 i = 0x43;
-    
+
     enum trafficLight {Red, Amber, Green}
-      
+
+    bytes public inputCode [] ;
+   	inputCode = 0x43b;
 
 }
